@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    height: 56rem;
+    width: 35rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.8rem 0.5rem #ddd;
+}
+
+.first__section{
+    height: 26.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.card__image img{
+    height: 12rem;
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+}
+.title__section h2{
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+.des__section{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.btn__section button{
+    width: 100%;
+    height: 2.2rem;
+    background-color: rgb(241,101,41);
+    color:  rgb(255,255,255);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn__section button:hover{
+    background-color: rgb(76, 175, 80);
+}
+
+/* second-section */
+.second__section{
+    height: 26.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+.second__section .card__image img{
+    margin-left: 13rem;
+}
+
+.card .second__section .second__section__btn button{
+    background-color: rgb(41,101,241);
+    color:  rgb(255,255,255);
+}
+.card .second__section .second__section__btn button:hover{
+    background-color: rgb(76, 175, 80);
+}
+.card .second__section .second__section__btn button:target{
+    background-color: rgb(10, 233, 10);
+}
